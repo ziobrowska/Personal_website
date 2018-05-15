@@ -1,0 +1,492 @@
+html{
+    font-family: 'Gruppo', sans-serif;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+#first {
+    background-image: url('img/tlo3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    min-height:  100%;
+    margin: 0;
+    padding: 0 5% 0 5%;
+    position: relative;
+    color: white;
+    width: inherit;
+}
+
+#imie {
+    padding-top: 2%;
+	font-size: 3em;
+    letter-spacing: 0.1em;
+   }
+
+#cytat1 {
+    height: inherit;
+    padding-top: 25%;
+}
+
+#cytat {
+    padding-top: 2%;
+}
+
+#cytat, #cytat1 {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+
+nav {
+    margin-right: 4%;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+nav .icon {
+    display: none;
+}
+
+nav p {
+    float: left;
+  	text-align: center;
+	margin: 2%;
+    color: grey;
+}
+
+nav a {
+    float: right;
+    
+ 	text-align: center;
+	margin: 2%;
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#second, #number4, #number6, #number8 {
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin:  0% 20% 10% 20% ;
+    width: inherit;
+   
+}
+
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-top: 5%;
+    text-align: center;
+    width: inherit;
+    
+}
+
+#pod {
+    font-size: 2em;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+
+#hearts p{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    width: inherit;
+    color: black;
+    padding-bottom: 5%;
+}
+
+.h {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10% 0 10% 0;
+    height: 50px;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;  
+}
+
+#muza, #books{
+    padding: 5%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#books img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 250px;
+}
+
+button1, button2 {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#upload {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#upload form {
+    margin: 5%;
+   
+}
+
+#upload input{
+    font-size: 0.6em;
+    font-family: 'Gruppo', sans-serif;
+    color: grey;
+    height: 35px;
+}
+
+
+#upload button {
+    margin: 5%;
+}
+
+#number3, #number5, #number7 {
+    background-color: black;
+    opacity: 0.95;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+#cytat2 {
+    vertical-align: middle;
+    text-align: center;
+	font-size:3em;
+    padding: 15%;
+    color: white;
+}
+
+#number4 p{
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 2%;
+    margin: 2%;
+    
+}
+
+.cat {
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-style: oblique;
+    
+}
+
+.s {
+    padding: 3%;
+}
+
+#tech {
+    border: 1px solid black;
+    margin-bottom: 5%;
+}
+
+.s2, .s3 {
+    padding: 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+.s2 p, .s3 p{
+    padding: 3%;
+    text-align: justify;
+}
+
+.s3 {
+     border: 1px solid black;
+    margin: 5%;
+}
+
+.cat2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+
+#opinion{
+    text-align: left;
+    font-weight: bold;
+    width: inherit;
+    
+  }
+
+#cont {
+    text-align: center;
+    margin-top: 15%;
+}
+
+#cont img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    height: 70px;
+}
+
+#number8 {
+    text-align: center;
+}
+
+input, textarea{
+	border: 1px solid black;
+    text-decoration: none;
+    display: inline-block;
+	font-style: bold;
+    cursor: pointer;
+    width: 60%;
+    margin: 1%;
+    font-size: 0.8em;
+    font-family: 'Gruppo', sans-serif;
+}
+
+input {
+    height: 30px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+#coments {
+    margin: 10%;
+}
+
+#message, #message2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: darkgreen;
+    
+ }
+
+#saying {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3%;
+    width: auto;
+    height: inherit;
+  }
+
+#pod_kom {
+    border: 1px solid black;
+    margin-bottom: 5%;
+    padding: 3%;
+    width: inherit;
+    height: inherit;
+}
+
+::-webkit-input-placeholder {
+    color: grey;
+    font-size: 1em;
+    font-family: 'Gruppo', sans-serif;
+}
+
+a {     
+    text-decoration: none; 
+} 
+
+a:visited, button a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: black;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer a:active{
+    color: white;
+}
+
+
+button {
+	background-color: white;
+	font-weight: bold;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    cursor: pointer;
+    padding: 1%;
+    margin: 1%;
+}
+
+button a:hover{
+     color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+	background-color: black;
+    opacity: 0.95;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	clear: both;
+	bottom:0;
+    height: 10%;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    #cytat1 {
+        padding-top: 70%;
+    }
+    #number3, #number5 {
+        padding-top: 30%;
+    }
+    #number7 {
+        padding-top: 50%;
+    }
+    input, textarea{
+        width: 80%;
+    }
+    .cat2 {
+        font-size: 1em;
+    }
+    #hearts{
+        margin:  0% 20% 10% 20% ;
+        width:auto;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1300px){
+    #cytat1 {
+        padding-top: 50%;
+    }
+    #number3, #number5 {
+        padding-top: 20%;
+    }
+    #number7 {
+        padding-top: 30%;
+    }
+    input, textarea{
+        width: 80%;
+    }
+    .cat2 {
+        font-size: 1em;
+    }
+    #hearts{
+        margin:  0% 20% 10% 20% ;
+        width:auto;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {display: none;}
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.responsive {position: relative;}
+  nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+}

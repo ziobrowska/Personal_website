@@ -1,0 +1,10 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "Webpage with node.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.2",
+    "nodemailer": "latest",
+  }
+}
